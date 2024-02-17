@@ -1,5 +1,8 @@
 body {
     font-family: Arial, sans-serif;
+    color-scheme: light dark;
+    background-color: Canvas;
+    color: CanvasText;
 }
 
 .language-selector-wrapper {
@@ -11,23 +14,19 @@ body {
 .language-selector-wrapper select {
     padding: 5px;
     font-size: 16px;
-    border: 1px solid #000;
+    border: 1px solid ButtonBorder;
     border-radius: 5px;
-    background-color: #fff;
-    color: #000;
+    background-color: ButtonFace;
 }
 
 .language-selector-wrapper label {
     font-size: 16px;
-    color: #000;
     padding-right: 3px;
 }
 
 #results {
     margin-top: 20px;
     padding: 20px;
-    background-color: #fff;
-    color: #000;
 }
 
 #results table {
@@ -51,8 +50,8 @@ body {
 
 #results table td {
     padding: 3px 10px;
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
+    border-top: 1px solid ButtonBorder;
+    border-left: 1px solid ButtonBorder;
 }
 
 #results table td:first-child {
@@ -66,19 +65,15 @@ body {
     #searchButton {
         padding: 5px;
         font-size: 16px;
-        border: 1px solid #000;
+        border: 1px solid ButtonBorder;
         border-radius: 5px;
-        background-color: #fff;
-        color: #000;
     }
 
     #searchBox {
         padding: 5px;
         font-size: 16px;
-        border: 1px solid #c0c0c0;
+        border: 1px solid ButtonBorder;
         border-radius: 5px;
-        background-color: #fff;
-        color: #000;
     }
 }
 
