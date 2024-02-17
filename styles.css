@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.language-selector-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.language-selector-wrapper select {
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+.language-selector-wrapper label {
+    font-size: 16px;
+    color: #000;
+    padding-right: 3px;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+#results table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#results table th {
+    text-align: center;
+    font-size: large;
+    padding: 3px 10px;
+}
+
+#results table .header.code {
+    width: 10%;
+}
+
+#results table .header.url {
+    width: 10%;
+}
+
+#results table td {
+    padding: 3px 10px;
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+}
+
+#results table td:first-child {
+    border-left: none;
+}
+
+#searchWrapper {
+    padding: 20px;
+    width: fit-content;
+
+    #searchButton {
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #000;
+    }
+
+    #searchBox {
+        padding: 5px;
+        font-size: 16px;
+        border: 1px solid #c0c0c0;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+#icd10-search {
+    font-size: larger;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.searchTermText {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
