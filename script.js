@@ -90,7 +90,7 @@ async function search() {
 async function getRealUrl(url) {
     // Sample: https://icd.who.int/browse/2024-01/mms/en#257068234
 
-    const baseURL = "https://icd.who.int/browse/2024-01/mms/en#";
+    const baseURL = `https://icd.who.int/browse/2024-01/mms/${document.getElementById("language-selector").value}#`;
 
     let realUrl = baseURL + url.split('/')[url.split('/').length - 1];
 
