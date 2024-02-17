@@ -35,7 +35,6 @@ async function search() {
     searchedFor.innerHTML = `Results for <a class="searchTermText">${search} ${foundData[0]["title10"]}</a>:`;
 
     resultTable.innerHTML = "";
-    // resultTable.innerHTML = '<tr><th class="header code">ICD-11 Code</th><th class="header title">ICD-11 Title</th><th class="header url">URL</th></tr>';
     const header = document.createElement('tr');
     const codeHeader = document.createElement('th');
     const titleHeader = document.createElement('th');
