@@ -46,3 +46,12 @@ _testmain.go
 #*.png
 #*.jpeg
 *.psd
+
+
+# Python
+.venv
+.env
+
+# Custom
+mapping.zip
+mapping
